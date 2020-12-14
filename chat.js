@@ -9,3 +9,15 @@ button.addEventListener("click", function(){
     messages.appendChild(newMessage);
     textbox.value = "";
 })
+
+var contacts = document.getElementById("contacts");
+var type = document.getElementById("type");
+var add = document.getElementById("add");
+
+add.addEventListener("click", function(){
+    var newMessage = document.createElement("li");
+    newMessage.innerHTML = type.value;
+    var list = document.getElementById("contacts");
+    list.appendChild(newMessage);
+    type.value = "";
+})

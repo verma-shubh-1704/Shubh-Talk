@@ -17,15 +17,15 @@ body {
 
 li {
 	cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
+  position: relative;
+  padding: 12px 8px 12px 40px;
 	list-style-type: none;
 	margin-top: 30px;
 	width: 200px;
 	background: rgb(59, 235, 220);
 	text-align: center;
-    font-size: 18px;
-    transition: 0.2s;
+  font-size: 18px;
+  transition: 0.2s;
 }
 
 h1 {
@@ -150,4 +150,22 @@ button:disabled {
   list-style-type: none;
   font-weight: 300;
   padding: 12px 24px 0;
+}
+
+.chat__sidebar {
+  width: 25%;
+}
+
+.chat__sidebar input {
+  margin: 10px 2px 5px 5px;
+  border-radius: 4%;
+}
+
+.chat__sidebar li {
+  background-color: teal;
+  text-align: left;
+}
+
+#contacts {
+  margin: 30px 10px 10px 10px;
 }
